@@ -55,7 +55,10 @@ namespace Demo.Function.ContainerRunner
                 .Create();
 
 
-            return new OkObjectResult("OK");
+            var logs = containerGroup.GetLogContent(request.ContainerGroupName + "-1");
+
+
+            return new OkObjectResult(logs);
         }
     }
 }
