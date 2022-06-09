@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Demo.Function.ContainerRunner": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7001",
+      "launchBrowser": false
+    }
+  }
+}

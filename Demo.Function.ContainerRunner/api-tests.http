@@ -1,0 +1,14 @@
+@baseUrl = http://localhost:7001
+
+
+### Execute Request
+
+POST {{baseUrl}}/api/ExecuteEndpoint
+content-type: application/json
+
+{
+    "ContainerGroupName":"rutzscodemo",
+    "ResourceGroupName":"rutzsco-aci-demo",
+    "Region":"eastus",
+    "ContainerImage":"mcr.microsoft.com/azuredocs/aci-wordcount:latest"
+}
